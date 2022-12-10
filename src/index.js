@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080;
 app.get('/', (req, res) => {
     console.log("Hola Desde index!!");
 
-    res.send("Estamos probando");
+    res.send({msg:"Ahora si esta Funcionando ..."});
 });
 
 app.listen(PORT, ()=> {
